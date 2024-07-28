@@ -9,7 +9,12 @@
 }
 
 .back-button {
-  padding-left: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+  border: 3px solid gray;
+  border-radius: 8px;
+  color: grey;
 }
 
 .dropdown-container {
@@ -21,7 +26,12 @@
 }
 
 .hamburger-menu {
-  padding-right: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-right: 1rem;
+  border: 3px solid gray;
+  border-radius: 8px;
+  color: grey;
 }
 
 @media screen and (min-width: 780px) {
