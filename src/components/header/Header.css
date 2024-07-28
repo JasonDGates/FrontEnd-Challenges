@@ -1,39 +1,39 @@
 .main-header {
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    height: 2rem;
-    padding: 1rem 0;
-    align-items: center;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  height: 2rem;
+  padding: 1rem 0;
+  align-items: center;
 }
 
 .back-button {
-    padding-left: 1rem;
+  padding-left: 1rem;
 }
 
 .dropdown-container {
-    display: none;
+  display: none;
 }
 
 .empty-div {
-    display: none;
+  display: none;
 }
 
 .hamburger-menu {
-    padding-right: 1rem;
+  padding-right: 1rem;
 }
 
 @media screen and (min-width: 780px) {
-    .dropdown-container {
-        display: flex;
-    }
+  .dropdown-container {
+    display: flex;
+  }
 
-    .empty-div {
-        display: flex;
-    }
+  .empty-div {
+    display: flex;
+  }
 
-    .hamburger-menu {
-        display: none;
-    }
+  .hamburger-menu {
+    display: none;
+  }
 }
