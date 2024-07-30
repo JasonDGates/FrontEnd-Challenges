@@ -1,17 +1,17 @@
-import { useState } from 'react'
-import './App.css'
-import Header from './components/header/Header'
-import LandingPage from './components/LandingPage/LandingPage'
+import { useState } from "react";
+import "./App.css";
+import LandingPage from "./components/LandingPage/LandingPage";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [menuState, setMenuState] = useState(true);
 
   return (
     <>
-    <Header />
-    <LandingPage />
+      <Navbar />
+      <LandingPage menuState={menuState} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

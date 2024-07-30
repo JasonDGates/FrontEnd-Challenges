@@ -1,7 +1,12 @@
+import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
+
 const LandingPage = () => {
-    return (
-        <div>Landing Page</div>
-    )
-}
+  return (
+    <>
+      {/* <HamburgerMenu /> */}
+      <div>Landing Page</div>
+    </>
+  );
+};
 
 export default LandingPage;
