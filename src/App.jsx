@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
-import LandingPage from "./components/LandingPage/LandingPage";
 import Navbar from "./components/Navbar/Navbar";
+import ContentContainer from "./components/ContentContainer/ContentContainer";
 
 function App() {
   const [menuState, setMenuState] = useState(true);
@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <LandingPage menuState={menuState} />
+      <ContentContainer />
     </>
   );
 }
