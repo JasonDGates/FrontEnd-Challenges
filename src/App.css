@@ -1,5 +1,6 @@
 body {
-  background-color: gray;
+  background-color: #032030;
+  color: white;
   display: flex;
   flex-direction: column;
   margin: 0;

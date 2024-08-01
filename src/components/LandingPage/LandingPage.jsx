@@ -1,10 +1,9 @@
-import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
+import "./LandingPage.css";
 
 const LandingPage = () => {
   return (
     <>
-      {/* <HamburgerMenu /> */}
-      <div>Landing Page</div>
+      <div className="landing-page">Landing Page</div>
     </>
   );
 };

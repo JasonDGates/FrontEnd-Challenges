@@ -15,33 +15,32 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <button onClick={toggleMenu} className="burger"></button>
-      <h1>J</h1>
       <div className={`dropdowns ${menuOpen ? "open" : ""}`}>
         <div className="dropdown">
           <button>
-            Services
+            Sites
             <img src={chevron} alt="chevron" />
           </button>
           <div className="dropdown-menu">
-            <button>UX/UI Design</button>
-            <button>Web Applications</button>
-            <button>SEO Advice</button>
+            <button>Best Buy</button>
+            <button>Apple</button>
+            <button>Walmart</button>
           </div>
         </div>
         <div className="dropdown">
           <button>
-            Products
+            Components
             <img src={chevron} alt="chevron" />
           </button>
           <div className="dropdown-menu">
-            <button>Learn CSS Ebook</button>
+            <button>Login / Sign Up</button>
             <button>Security Course</button>
-            <button>Masterclass Bundle</button>
+            <button>Credit Card</button>
           </div>
         </div>
         <div className="dropdown">
           <button>
-            Support
+            Misc.
             <img src={chevron} alt="chevron" />
           </button>
           <div className="dropdown-menu">
