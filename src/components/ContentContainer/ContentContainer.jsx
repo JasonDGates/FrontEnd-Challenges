@@ -1,4 +1,5 @@
 import CheckoutForm from "../CheckoutForm/CheckoutForm";
+import HoverCard from "../HoverCard/HoverCard";
 import ModernLoginPage from "../ModernLoginPage/ModernLoginPage";
 import SummaryPage from "../SummaryPage/SummaryPage";
 import "./ContentContainer.css";
@@ -11,6 +12,8 @@ const ContentContainer = () => {
       <ModernLoginPage />
 
       <CheckoutForm />
+
+      <HoverCard />
     </div>
   );
 };

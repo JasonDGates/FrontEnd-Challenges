@@ -5,4 +5,10 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   base: "/FrontEnd-Challenges",
   plugins: [react()],
+  assetsInclude: ["**/*.png"],
+  resolve: {
+    alias: {
+      "@": "/src",
+    },
+  },
 });
