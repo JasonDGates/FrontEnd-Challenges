@@ -1,3 +1,4 @@
+import CheckoutForm from "../CheckoutForm/CheckoutForm";
 import ModernLoginPage from "../ModernLoginPage/ModernLoginPage";
 import SummaryPage from "../SummaryPage/SummaryPage";
 import "./ContentContainer.css";
@@ -8,6 +9,8 @@ const ContentContainer = () => {
       <SummaryPage />
 
       <ModernLoginPage />
+
+      <CheckoutForm />
     </div>
   );
 };

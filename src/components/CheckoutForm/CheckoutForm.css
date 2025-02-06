@@ -1,0 +1,127 @@
+.checkout-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2.5rem;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #ffffff, #f5f7fa);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.price-summary {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  color: #4a5568;
+  font-size: 1.1rem;
+}
+
+.price-row.total {
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 2px solid #edf2f7;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #2d3748;
+}
+
+.form-row {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  flex: 1;
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #2d3748;
+  letter-spacing: 0.3px;
+}
+
+input {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  background: white;
+  color: #2d3748;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4299e1;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.15);
+}
+
+input::placeholder {
+  color: #a0aec0;
+}
+
+.card-type {
+  font-size: 0.9rem;
+  color: #4299e1;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(145deg, #4299e1, #3182ce);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-top: 1rem;
+}
+
+.submit-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(66, 153, 225, 0.2);
+}
+
+.submit-button:active {
+  transform: translateY(0);
+  background: linear-gradient(145deg, #3182ce, #2c5282);
+}
+
+/* Add modern touch for headings */
+h2 {
+  color: #2d3748;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .form-row {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .checkout-container {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+}
